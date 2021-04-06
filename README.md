@@ -13,6 +13,10 @@ Project was created using a virtual environment. The libraries within the enviro
 $ pip install -r requirements.txt
 ```
 
+Create then the folders ```models```, ```tokenizers```, and ```raw```.
+
+Due to size limitations, the datasets ae not stored here. You can download it from http://pln.inf.um.es/corpora/realworderrors/datasets.rar
+
 
 ## Note
-Repository code is now refactoring because some of the urls and paths were absolute paths
+Repository code is now refactoring because some of the urls and paths were absolute paths. Future installation instructions will be provided soon.
