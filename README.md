@@ -6,5 +6,13 @@ Real-word errors are characterized by being actual terms in the dictionary. By p
 This folder contains the sentences used for training and testing the seq2seq model. Sentences are classified according to the corpus (Wikicorpus and medicine corpus) and the two dataset compilation strategies in the case of the training sentences. The same test sentences were used for each strategy. Finally, erroneous sentences (source) are provided in addition to correct sentences (target). 
 
 
+## Install
+Project was created using a virtual environment. The libraries within the environment are in ```requirements.txt```. To install, please create a new environment and install the dependencies
+
+```
+$ pip install -r requirements.txt
+```
+
+
 ## Note
 Repository code is now refactoring because some of the urls and paths were absolute paths
